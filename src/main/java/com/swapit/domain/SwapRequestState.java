@@ -623,7 +623,9 @@ public class SwapRequestState {
                         trackingPhase,
                         trackingMetrics,
                         List.copyOf(nearbyCrews),
-                        List.copyOf(trackingEvents)
+                        List.copyOf(trackingEvents),
+                        null,
+                        List.of()
                 ),
                 finalValuation,
                 credit,
